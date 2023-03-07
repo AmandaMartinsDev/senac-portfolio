@@ -1,0 +1,82 @@
+:root {
+  --background: #242424;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Alice", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+header,
+section,
+footer {
+  margin: 32px 0;
+}
+
+header {
+  text-align: center;
+  margin: 32px 0;
+}
+
+header img {
+  width: 256px;
+  height: 256px;
+  border-radius: 100%;
+}
+
+.location {
+  font-weight: bold;
+}
+
+.biography {
+  max-width: 500px;
+  line-height: 32px;
+}
+
+section {
+  width: 600px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  margin: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+a:hover {
+  color: lightgray;
+  transition: 0.3s;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.details {
+  font-style: italic;
+}
+
+#links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#links li {
+  margin: 16px 0;
+  margin-right: 16px;
+}
